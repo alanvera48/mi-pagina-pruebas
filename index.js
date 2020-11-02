@@ -72,7 +72,7 @@ home.onclick=()=>{
 	sliabout.style.transform = ('translateX(100%)');
 	sliskill.style.transform = ('translateX(200%)');
 	slicontact.style.transform = ('translateX(300%)');
-	contenedor.style.backgroundImage = ('url(montaña.jpg)');
+	
 	
 }
 
@@ -82,7 +82,7 @@ about.onclick=()=>{
 	sliabout.style.transform = ('translateX(0)');
 	sliskill.style.transform = ('translateX(100%)');
 	slicontact.style.transform = ('translateX(300%)');
-	contenedor.style.backgroundImage = ('url(montñasocs.jpg)');
+	
 	
 }
 
@@ -91,8 +91,8 @@ skill.onclick=()=>{
 	slihome.style.transform = ('translateX(-200%)');
 	sliabout.style.transform = ('translateX(-100%)');
 	sliskill.style.transform = ('translateX(0)');
-	slicontact.style.transform = ('translateX(300%)');
-	contenedor.style.backgroundImage = ('url(morning.jpg)');
+	slicontact.style.transform = ('translateX(100%)');
+	
 
 }
 
@@ -102,7 +102,7 @@ contact.onclick=()=>{
 	sliabout.style.transform = ('translateX(-200%)');
 	sliskill.style.transform = ('translateX(-100%)');
 	slicontact.style.transform = ('translateX(0)');
-	contenedor.style.backgroundImage = ('url(montclas.jpg)');
+
 	
 }
 
@@ -118,6 +118,8 @@ var active = document.getElementById('active');
 	titulo2 = document.getElementById('h2');
 	pabout = document.getElementById('pabout');
 	h4 = document.getElementById('h4');
+	h6 = document.getElementById('h6');
+	h62 = document.getElementById('h62');
 
 
 en.onclick =()=>{
@@ -131,7 +133,8 @@ en.onclick =()=>{
 	titulo2.innerHTML = "Hola a Todos";
 	pabout.innerHTML = " Mi nombre es Alan Vera y soy desarrolador Front End.<br><br> Soy de Buenos Aires, Argentins. He estado trabajando de desarrolador desde el 2019, año en el que conoci este fantastico mundo. <br><br>Mi viaje, tu viaje comienza aca <br> Gracias por visitarme";
 	h4.innerHTML= "Conocimientos";
-
+	h6.innerHTML = "Podes encontrarme en :";
+	h62.innerHTML = "Trabajemos juntos";
  }
 
 es.onclick =()=>{
@@ -145,4 +148,10 @@ es.onclick =()=>{
 	titulo2.innerHTML = "Hi Everyone";
 	pabout.innerHTML = "My name is Alan Vera and i am a Front end Developer.<br><br> I am from Buenos Aires, Argentina. I have been working in this area since 2019 when I discover this AWESOME WORLD. <br><br>My history and my journey, your journey star here¡ <br>Thanks for visit me¡";
 	h4.innerHTML= "Skills";
+	h6.innerHTML = "You can find me in:";
+	h62.innerHTML = "Lets Work Together";
 }
+
+// Burger Toggle
+
+

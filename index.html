@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="description" content="front end developer argentina programacion SEO">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Alan Div-.</title>
@@ -13,15 +14,24 @@
 <body id="bod">	
 	<div class="container" id="contenedor">
 		<header class="">
-			<nav>
-				<ul>
+			<nav id="nav">
+				<ul id="navul">
 					<li id="l_home"><a id="li_home" title="">Home</a></li>
 					<li id="l_about"><a id="li_about" title="">About me</a></li>
 					<li id="l_skill"><a id="li_skill" title="">Skill</a></li>
 					<li id="l_contact"><a id="li_contact" title="">Contact</a></li>
 				</ul>
 			</nav>
-			<div class="burger">
+			<nav class="nav2">
+				<ul id="navul">
+					<li id=""><a href="#home" id="li_home" title="">Home</a></li>
+					<li id=""><a href="#abourclo" id="li_about" title="">About me</a></li>
+					<li id=""><a href="#skill" id="li_skill" title="">Skill</a></li>
+					<li id=""><a href="#contact" id="li_contact" title="">Contact</a></li>
+				</ul>
+			</nav>
+			<nav>
+			<div class="burger" id="burger">
 				<div class="line1"></div>
 				<div class="line1"></div>
 				<div class="line1"></div>
@@ -30,10 +40,8 @@
 				<div id="es" >ES</div>
 				<div id="en" >EN</div>
 				<div id="active" class="active"></div>
-			</div>
-			
+			</div>			
 		</header>
-	
 			<section id="home">
 				<span class="titulo" id="titulo">Developer<br><br>
 					<span class="title">Alan < Div > </span><span class="a-title" id="atitle">-.</span>
@@ -69,7 +77,12 @@
 					<div class="skill_three">
 						<h5>Reacj Js</h5>
 					
-						<img src="recc.png" alt="" id="react"class="photo-skill">	
+						<img src="recc.png" alt="" class="photo-skill">	
+					</div>
+					<div class="skill_three">
+						<h5>Git Versions</h5>
+					
+						<img src="github.png" alt="" class="photo-skill">	
 					</div>
 				
 				</div>
@@ -78,24 +91,24 @@
 			</section>
 			<section id="contact" >
 				<div class="contact-med">
-					<h6 >You can find me in:</h6>
+					<h6 id="h6" >You can find me in:</h6>
 					<div class="media">
 						<div class="con-media">
-							<a href=""><i class="fab fa-instagram"></i></a>
+							<a href="https://www.instagram.com/alanveraa/"><i class="fab fa-instagram"></i></a>
 						</div>
 						<div class="con-media">
 							<a href="https://api.whatsapp.com/send?phone=[011][31975218]"><i class="fab fa-whatsapp"></i></a>
 						</div class="con-media">
 						<div class="con-media">
-							<a href=""><i class="fab fa-github"></i></a>
+							<a href="https://github.com/alanvera48/"><i class="fab fa-github"></i></a>
 						</div >
 						<div class="con-media">
-							<a href="" ><i class="fab fa-linkedin"></i></a>
-						</div>	
+							<a href="https://www.linkedin.com/in/alan-leandro-vera-b70945163/" ><i class="fab fa-linkedin"></i></a>
+						</div>
 					</div>
 				</div>	
 				<form action="" method="get" accept-charset="utf-8" class="form">
-					<h6>Lets Work Together</h6>
+					<h6 id="h62">Lets Work Together</h6>
 					<input type="text" name=""  placeholder="Your name....">
 					<input type="email" name="" placeholder=" Your email...">
 					<textarea name="" placeholder=" Your messenge....."></textarea>
