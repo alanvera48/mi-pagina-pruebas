@@ -13,5 +13,3 @@ I am working with html, css and Javascrip
 Thanks for visit,
 
 https://alanvera48.github.io/mi-pagina-pruebas/
-
-https://raw.githubusercontent.com/alanvera48/mi-pagina-pruebas/master/asset
